@@ -33,6 +33,17 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Pretendard-Regular';
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -433,6 +444,10 @@ section {
   margin-bottom: 0;
 }
 
+.about p {
+  line-height: 2;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -509,6 +524,23 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+#skills .col {
+  width: 100px;
+  height: 100px;  
+}
+
+#skills .card {
+  width: 100px;
+  height: 100px;
+  transition: 0.9s;
+  border-width: 0;
+}
+
+#skills img {
+  width: 100px;
+  height: 100px;  
 }
 
 /*--------------------------------------------------------------
