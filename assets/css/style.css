@@ -416,6 +416,7 @@ section {
 
 #resumeContent {
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -542,7 +543,6 @@ section {
   height: 100px;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
   border-radius: 200px !important;
-
 }
 
 #skills .card {
@@ -560,6 +560,13 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.resume .row {
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 20px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -773,6 +780,11 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio-container {
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 /*--------------------------------------------------------------
