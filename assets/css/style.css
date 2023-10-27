@@ -409,6 +409,15 @@ section {
   margin-bottom: 0;
 }
 
+#idPhoto{
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#resumeContent {
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -527,8 +536,13 @@ section {
 }
 
 #skills .col {
+  margin: 0;
+  padding: 0;
   width: 100px;
-  height: 100px;  
+  height: 100px;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 200px !important;
+
 }
 
 #skills .card {
